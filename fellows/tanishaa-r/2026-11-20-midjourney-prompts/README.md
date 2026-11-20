@@ -18,13 +18,13 @@ _This week's Lyrical Literacy progress update (week of 2026-11-20)._
 ## Reproduce
 - Brutalist commit `a99b5323fe346786c3e5991b09a5cc784a6b0da2` (2026-10-23), checked 2026-11-20.
 - Steps: `python3 build_sheet.py` → `generate_audio_kokoro.py . --speed 0.95` → `python word_times.py` → `python3 build_sheet.py` → `remotion_scenes.py` → `python add_bug.py B00` → `./art final`; vertical: `./art vertical`, set B09 → LbTakeaway916 and the B11 title to "Prompts", render, `add_bug.py --dir vertical B00`, `./art final vertical --height 3840`.
-- Media (MP4/MP3) goes to Drive, not GitHub.
+- Media (MP4/MP3) is on Drive, not GitHub: [week folder 20-11-2026](https://drive.google.com/drive/folders/1IaBKQwT6dgURJ5Cy3gWZWQw6IkkKx7l6).
 
 ## Watch and review
 | Version | Drive link | Resolution | Duration | SHA-256 |
 |---|---|---|---|---|
-| Landscape `MidjourneyPrompts_TanishaaR.mp4` | _[Tanishaa: add Drive week folder link]_ (`landscape/`) | 3840×2160 | 2:14.0 | `1e7e1b0ffa123aa20e0c2258df2c8bff6ec9a38a7b0c87e09b8a389cf2bb939c` |
-| Vertical `MidjourneyPrompts_TanishaaR.mp4` | _[Tanishaa: add Drive week folder link]_ (`vertical/`) | 2160×3840 | 2:14.0 | `f8a1b7cea7be7ad74758979b6fa68d61bf2f9283db949b15a99b6864584f1f36` |
+| Landscape `MidjourneyPrompts_TanishaaR.mp4` | [Drive week folder](https://drive.google.com/drive/folders/1IaBKQwT6dgURJ5Cy3gWZWQw6IkkKx7l6) (`horizontal/`) | 3840×2160 | 2:14.0 | `1e7e1b0ffa123aa20e0c2258df2c8bff6ec9a38a7b0c87e09b8a389cf2bb939c` |
+| Vertical `MidjourneyPrompts_TanishaaR.mp4` | [Drive week folder](https://drive.google.com/drive/folders/1IaBKQwT6dgURJ5Cy3gWZWQw6IkkKx7l6) (`vertical/`) | 2160×3840 | 2:14.0 | `f8a1b7cea7be7ad74758979b6fa68d61bf2f9283db949b15a99b6864584f1f36` |
 
 - Review status: pending
 - YouTube 4K check: pending
