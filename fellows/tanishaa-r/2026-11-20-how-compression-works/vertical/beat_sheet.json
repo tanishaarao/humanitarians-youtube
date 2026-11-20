@@ -1,0 +1,647 @@
+{
+  "metadata": {
+    "title": "How Compression Shrinks a File",
+    "slug": "how-compression-works-vertical",
+    "topic": "Irreducibly Human",
+    "brand": "claude-hai",
+    "skill": "ai-explainer",
+    "audience": "students new to the topic",
+    "register": "Plain",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "channel": "@HumanitariansAI",
+    "greeting": "Hi, Tanishaa",
+    "fellow": "Tanishaa",
+    "fellow_intro": "Hi, I am Tanishaa and this video is about how compression shrinks a file (required fellow opening line, B00).",
+    "ai_disclosure": "Narration is Kokoro af_bella, an AI voice, disclosed aloud in B00 and on the composer chip.",
+    "decisions": [
+      "Topic chosen by Tanishaa on 2026-11-20 (compression, from four options). Script v1 approved in chat 2026-11-20 (\"Approved, build it\").",
+      "Sync rules from her QR and Midjourney notes: every on-screen phrase is Bella's own words, cued to its measured word; each scene's layout shows faintly from the first word; no self-typing text (B11 uses MjYourTurn).",
+      "All numbers are real output of demo/compress_demo.py; the test picture is labelled as made for the demo."
+    ],
+    "build": {
+      "at": "2026-11-20T16:20:27",
+      "cut": "master",
+      "filled": 13,
+      "of": 13,
+      "slates": [],
+      "skin_warnings": [
+        "B00: palette=claude but the cold open is 'ClaudeComposerAsk916' — COLD OPEN LAW wants ClaudeComposerAsk",
+        "B12: palette=claude but the outro is 'HaiTitleOutro916' — OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    },
+    "aspect_ratio": "9:16",
+    "fit": "pad",
+    "kind": "vertical",
+    "reformat": "full-length; native portrait graphics; preserve source framing",
+    "derived_from": "how-compression-works",
+    "dropped_beats": [],
+    "total_estimated_duration_seconds": 156.38,
+    "short_validation": {
+      "status": "blocked",
+      "errors": [
+        "B10: GpsTakeaway"
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "narration_text": "Hi, I am Tanishaa, and this video is about how compression shrinks a file. The voice you're hearing is Bella, an AI narrator reading a script Claude drafted and I approved.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk916",
+          "props": {
+            "greeting": "Hi, Tanishaa",
+            "topic": "Irreducibly Human",
+            "segment": "How Compression Works",
+            "command": "How does a ZIP file make things smaller without losing anything?",
+            "runningText": "thinking…",
+            "output": [
+              "It finds repeats and writes them once,",
+              "gives common things short codes,",
+              "and gives back every letter when you unzip."
+            ],
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Claude",
+            "effortLabel": "AI narration: Bella",
+            "largeText": true,
+            "durationSeconds": 11.73
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": "2026-11-20T21:02:26.386587+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 11.33,
+      "render_duration_s": 11.333333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "BLUF",
+      "narration_text": "A zipped file is smaller, but when you open it, every letter comes back. A photo shrinks even more, because it learns to throw away what you won't notice.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpHook916",
+          "props": {
+            "shrinkAt": 0.0384,
+            "points": [
+              {
+                "text": "every letter comes back",
+                "at": 0.2831
+              },
+              {
+                "text": "throw away what you won't notice",
+                "at": 0.7624,
+                "accent": true
+              }
+            ],
+            "durationSeconds": 9.89
+          },
+          "rendered": {
+            "out": "media/B01.mp4",
+            "at": "2026-11-20T21:03:00.805293+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 9.49,
+      "render_duration_s": 9.5,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "remotion:CmpHook916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "FRAMEWORK",
+      "narration_text": "There are two kinds. Lossless compression, like ZIP and PNG, gives you back every bit. Lossy compression, like JPEG and MP3, drops detail to get much smaller.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpColumns916",
+          "props": {
+            "left": {
+              "header": "Lossless",
+              "at": 0.122,
+              "items": [
+                {
+                  "text": "like ZIP and PNG",
+                  "at": 0.2095
+                },
+                {
+                  "text": "gives you back every bit",
+                  "at": 0.38
+                }
+              ]
+            },
+            "right": {
+              "header": "Lossy",
+              "at": 0.5332,
+              "items": [
+                {
+                  "text": "like JPEG and MP3",
+                  "at": 0.5864
+                },
+                {
+                  "text": "drops detail",
+                  "at": 0.7787
+                }
+              ]
+            },
+            "card": "",
+            "cardAt": 0.99,
+            "durationSeconds": 12.79
+          },
+          "rendered": {
+            "out": "media/B02.mp4",
+            "at": "2026-11-20T21:03:45.076573+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 12.39,
+      "render_duration_s": 12.416666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "remotion:CmpColumns916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "MECHANISM",
+      "narration_text": "The first lossless trick is spotting repeats. Take one line from Row, Row, Row Your Boat. The compressor writes the first ten letters, then just one note: go back nine, copy twenty-five. That's how ZIP and PNG both work underneath.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpRepeat916",
+          "props": {
+            "source": "Row, Row, Row Your Boat",
+            "line": "Merrily, merrily, merrily, merrily,",
+            "literals": 10,
+            "back": 9,
+            "len": 25,
+            "lineAt": 0.1708,
+            "literalsAt": 0.4441,
+            "noteAt": 0.6113,
+            "tailAt": 0.7644,
+            "tail": "That's how ZIP and PNG both work underneath.",
+            "durationSeconds": 16.98
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": "2026-11-20T21:04:45.569340+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 16.58,
+      "render_duration_s": 16.583333333333332,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "remotion:CmpRepeat916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "MECHANISM",
+      "narration_text": "The second trick is like Morse code. The letter E is common, so it gets one dot. Q is rare, so it gets four signals. Common things get short codes, and rare things get long ones.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpMorse916",
+          "props": {
+            "eAt": 0.1824,
+            "qAt": 0.4304,
+            "ruleAt": 0.6848,
+            "introAt": 0.0496,
+            "durationSeconds": 12.5
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": "2026-11-20T21:05:29.585716+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 12.1,
+      "render_duration_s": 12.125,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "remotion:CmpMorse916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "WORKED EXAMPLE",
+      "narration_text": "Here it is for real. I compressed four verses of the rhyme, and four hundred twenty-four bytes became eighty-seven, about a fifth. Unzipped, it was identical. Then I tried random bytes. They got bigger, because there was nothing to repeat.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpLossless916",
+          "props": {
+            "rhymeBytes": 424,
+            "rhymeZip": 87,
+            "randomBytes": 424,
+            "randomZip": 435,
+            "identical": true,
+            "rhymeAt": 0.1188,
+            "zipAt": 0.3348,
+            "sameAt": 0.5278,
+            "randomAt": 0.7054,
+            "biggerAt": 0.8077,
+            "footnote": "Real result: demo/compress_demo.py (Python zlib, the DEFLATE method inside ZIP and PNG).",
+            "durationSeconds": 15.65
+          },
+          "rendered": {
+            "out": "media/B05.mp4",
+            "at": "2026-11-20T21:14:06.672487+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 15.25,
+      "render_duration_s": 15.25,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "remotion:CmpLossless916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "SURPRISE",
+      "narration_text": "That's not a bug. There are more long files than short ones, so no compressor can shrink every file. It only wins when there's a pattern.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpCounting916",
+          "props": {
+            "longAt": 0.1582,
+            "ruleAt": 0.4308,
+            "patternAt": 0.7407,
+            "source": "RFC 1951 (DEFLATE): “no lossless compression algorithm can compress every possible input”",
+            "durationSeconds": 9.1
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": "2026-11-20T21:14:40.790606+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 8.7,
+      "render_duration_s": 8.708333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "remotion:CmpCounting916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "MECHANISM",
+      "narration_text": "JPEG works differently. It cuts a photo into eight by eight blocks. In each block it keeps the broad changes and drops fine detail your eyes barely notice. Your eyes notice brightness more than colour, so colour gets squeezed hardest.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 19,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpBlocks916",
+          "props": {
+            "photo": "compression/original.png",
+            "blocksAt": 0.1727,
+            "keepAt": 0.3516,
+            "dropAt": 0.4461,
+            "colourAt": 0.6541,
+            "durationSeconds": 15.87
+          },
+          "rendered": {
+            "out": "media/B07.mp4",
+            "at": "2026-11-20T21:08:30.566862+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 15.47,
+      "render_duration_s": 15.5,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "remotion:CmpBlocks916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "WORKED EXAMPLE",
+      "narration_text": "Here's the picture test. The raw pixels took seven hundred eighty-six kilobytes. Lossless PNG got it to five hundred eighteen. JPEG at quality fifty: twelve kilobytes, and it looks the same. At quality ten: six kilobytes, and now you can see the blocks.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 22,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpPhoto916",
+          "props": {
+            "tiles": [
+              {
+                "img": "compression/original.png",
+                "label": "raw pixels",
+                "size": "786 KB",
+                "at": 0.093
+              },
+              {
+                "img": "compression/original.png",
+                "label": "lossless PNG",
+                "size": "518 KB",
+                "at": 0.2893
+              },
+              {
+                "img": "compression/jpeg_q50.png",
+                "label": "JPEG quality 50",
+                "size": "12 KB",
+                "at": 0.4937,
+                "note": "looks the same",
+                "noteAt": 0.667
+              },
+              {
+                "img": "compression/jpeg_q10.png",
+                "label": "JPEG quality 10",
+                "size": "6 KB",
+                "at": 0.7555,
+                "note": "you can see the blocks",
+                "noteAt": 0.9082
+              }
+            ],
+            "testAt": 0.0115,
+            "footnote": "Test picture with added grain, made for this demo (demo/compress_demo.py).",
+            "durationSeconds": 17.42
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": "2026-11-20T21:15:50.656047+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 17.02,
+      "render_duration_s": 17.041666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "remotion:CmpPhoto916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "WHEN NOT TO",
+      "narration_text": "So which should you use? Text and code need lossless, because one wrong bit breaks them. Line drawings and screenshots stay sharp as PNG. Photos and music are fine with lossy. And edit the original, not a JPEG of a JPEG, because every re-save loses a little more.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 20,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "CmpColumns916",
+          "props": {
+            "left": {
+              "header": "Lossless",
+              "at": 0.0732,
+              "items": [
+                {
+                  "text": "text and code",
+                  "at": 0.0732
+                },
+                {
+                  "text": "line drawings and screenshots",
+                  "at": 0.3068
+                }
+              ]
+            },
+            "right": {
+              "header": "Lossy",
+              "at": 0.507,
+              "items": [
+                {
+                  "text": "photos and music",
+                  "at": 0.507
+                }
+              ]
+            },
+            "card": "Edit the original, not a JPEG of a JPEG.",
+            "cardAt": 0.6749,
+            "durationSeconds": 18.58
+          },
+          "rendered": {
+            "out": "media/B09.mp4",
+            "at": "2026-11-20T21:10:42.651368+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 18.18,
+      "render_duration_s": 18.208333333333332,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "remotion:CmpColumns916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "VERDICT",
+      "narration_text": "Three things to keep. Lossless finds repeats. Lossy drops what you won't notice. And random data can't shrink.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "LbTakeaway916",
+          "props": {
+            "artifactTitle": "How Compression Works",
+            "artifactHeading": "Three things to keep",
+            "artifactLines": [
+              "1. Lossless finds repeats.",
+              "2. Lossy drops what you won't notice.",
+              "3. Random data can't shrink."
+            ],
+            "lineAt": [
+              0.1783,
+              0.4178,
+              0.6828
+            ],
+            "durationSeconds": 7.85,
+            "lectureLayout": true
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": "2026-11-20T21:11:12.318702+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 7.45,
+      "render_duration_s": 7.458333333333333,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "remotion:LbTakeaway916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "YOUR TURN",
+      "narration_text": "Your turn. Ask Claude for two sentences, one full of repeats and one with none. Guess which one shrinks more. Then run it and see.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "MjYourTurn916",
+          "props": {
+            "prompt": "Act as my tutor. Give me two sentences, one full of repeated words and one with none. Have me guess which compresses better, then show me how to check it with Python's zlib.",
+            "askAt": 0.1347,
+            "steps": [
+              {
+                "text": "one full of repeats",
+                "at": 0.3157
+              },
+              {
+                "text": "one with none",
+                "at": 0.4393
+              },
+              {
+                "text": "guess which one shrinks more",
+                "at": 0.5784
+              }
+            ],
+            "runAt": 0.7991,
+            "runText": "Then run it and see.",
+            "durationSeconds": 9.06
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": "2026-11-20T21:11:46.479452+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 8.66,
+      "render_duration_s": 8.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "remotion:MjYourTurn916",
+        "at": "2026-11-20T16:20:27"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "act": "OUTRO",
+      "narration_text": "How compression shrinks a file. At Humanitarians AI.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "HaiTitleOutro916",
+          "props": {
+            "title": "How Files Shrink",
+            "handle": "@HumanitariansAI",
+            "durationSeconds": 3.96
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": "2026-11-20T21:18:42.199100+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B12.mp3",
+      "actual_duration_s": 3.56,
+      "render_duration_s": 3.5833333333333335,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B12.mp4",
+        "filled_by": "remotion:HaiTitleOutro916",
+        "at": "2026-11-20T16:20:27"
+      }
+    }
+  ]
+}

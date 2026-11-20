@@ -1,0 +1,583 @@
+{
+  "metadata": {
+    "title": "What I Learned About Midjourney Prompts",
+    "slug": "midjourney-prompts",
+    "topic": "Irreducibly Human",
+    "brand": "claude-hai",
+    "skill": "ai-explainer",
+    "kind": "progress update",
+    "audience": "students new to the topic",
+    "register": "Plain",
+    "engine": "kokoro",
+    "voice_kokoro": "af_bella",
+    "palette": "claude",
+    "channel": "@HumanitariansAI",
+    "greeting": "Hi, Tanishaa",
+    "fellow": "Tanishaa",
+    "fellow_intro": "Hi, I am Tanishaa and this video is about what I learned this week about writing Midjourney prompts (required fellow opening line, B00).",
+    "ai_disclosure": "Narration is Kokoro af_bella, an AI voice, disclosed aloud in B00 and on the composer chip.",
+    "decisions": [
+      "This week's Lyrical Literacy progress update. Topic from Tanishaa 2026-11-20: learning how Midjourney prompts work (more information, based on a script). Script v1 approved in chat 2026-11-20.",
+      "Correction from Midjourney's own Prompt Basics page: short, clear prompts work best and long instructions can confuse it, but the right details give control; the video says 'the right details, not more words'.",
+      "No Midjourney images (Tanishaa's choice). The B06 prompt is labelled as not run yet; running it with a fixed seed is next week's experiment.",
+      "Sync rules: on-screen phrases are Bella's own words on their measured words; frames faint from the first word; no self-typing (B10 uses MjYourTurn)."
+    ],
+    "build": {
+      "at": "2026-11-20T17:36:06",
+      "cut": "master",
+      "filled": 12,
+      "of": 12,
+      "slates": [],
+      "skin_warnings": [
+        "B11: palette=claude but the outro is 'HaiTitleOutro' — OUTRO LAW wants ClaudeTitleOutro"
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "act": "ASK",
+      "narration_text": "Hi, I am Tanishaa, and this video is about what I learned this week about writing Midjourney prompts. The voice you're hearing is Bella, an AI narrator reading a script Claude drafted and I approved.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "greeting": "Hi, Tanishaa",
+            "topic": "Irreducibly Human",
+            "segment": "Midjourney Prompts",
+            "command": "How do I write a good Midjourney prompt?",
+            "runningText": "thinking…",
+            "output": [
+              "Describe what you want to see,",
+              "answer the details that matter,",
+              "and keep it short and clear."
+            ],
+            "folderLabel": "@HumanitariansAI",
+            "modelLabel": "Claude",
+            "effortLabel": "AI narration: Bella",
+            "largeText": true,
+            "durationSeconds": 12.86
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B00.mp3",
+      "actual_duration_s": 12.46,
+      "render_duration_s": 12.5,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "act": "BLUF",
+      "narration_text": "When I started, I thought the trick was simple: give Midjourney more information, and you get better pictures. That's half right.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 12,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmThought",
+          "props": {
+            "points": [
+              {
+                "text": "give Midjourney more information",
+                "at": 0.3573
+              },
+              {
+                "text": "and you get better pictures",
+                "at": 0.491
+              },
+              {
+                "text": "That's half right.",
+                "at": 0.838,
+                "accent": true
+              }
+            ],
+            "durationSeconds": 7.78
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 7.38,
+      "render_duration_s": 7.416666666666667,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "act": "PROBLEM",
+      "narration_text": "Midjourney's own guide says short, clear prompts usually work best. Long lists and instructions can confuse it. Its example turns a whole request into one line: colored pencil illustration of bright orange California poppies.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmExample",
+          "props": {
+            "guideAt": 0.019,
+            "shortLabel": "short, clear prompts usually work best",
+            "shortAt": 0.071,
+            "longLabel": "long lists and instructions can confuse it",
+            "longAt": 0.2902,
+            "longPrompt": "Show me a picture of lots of blooming California poppies, make them bright, vibrant orange, and draw them in an illustrated style with colored pencils",
+            "shortPrompt": "Colored pencil illustration of bright orange California poppies",
+            "exampleAt": 0.4854,
+            "source": "Midjourney, Prompt Basics (their own example)",
+            "durationSeconds": 15.78
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 15.38,
+      "render_duration_s": 15.416666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "act": "FRAMEWORK",
+      "narration_text": "But detail still matters. The guide puts it this way: fewer details mean more variety, but less control. So the real trick is the right details, not more words.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmSlider",
+          "props": {
+            "fewerAt": 0.3181,
+            "lessAt": 0.5147,
+            "rightAt": 0.7382,
+            "fewer": "fewer details mean more variety",
+            "less": "but less control",
+            "right": "the right details, not more words",
+            "durationSeconds": 11.19
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 10.79,
+      "render_duration_s": 10.791666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "act": "FRAMEWORK",
+      "narration_text": "Which details? Midjourney lists seven: subject, medium, environment, lighting, colour, mood, and composition. When a picture comes back wrong, it's usually because one of these was left for it to guess.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmSeven",
+          "props": {
+            "items": [
+              {
+                "text": "subject",
+                "at": 0.1879
+              },
+              {
+                "text": "medium",
+                "at": 0.2521
+              },
+              {
+                "text": "environment",
+                "at": 0.3028
+              },
+              {
+                "text": "lighting",
+                "at": 0.3714
+              },
+              {
+                "text": "colour",
+                "at": 0.4295
+              },
+              {
+                "text": "mood",
+                "at": 0.4743
+              },
+              {
+                "text": "composition",
+                "at": 0.5086
+              }
+            ],
+            "guessAt": 0.8591,
+            "guess": "one was left for it to guess",
+            "source": "Midjourney Prompt Basics · handbook 6.4",
+            "durationSeconds": 13.41
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 13.01,
+      "render_duration_s": 13.041666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "act": "WORKED EXAMPLE",
+      "narration_text": "This is where a script helps. Here's a scene from my GPS video. The script already says what's in the frame: a small phone, a dark Earth, and about thirty satellites far above.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 16,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmScript",
+          "props": {
+            "label": "my GPS video script, scene B02",
+            "labelAt": 0.1743,
+            "lines": [
+              "A small phone on a dark Earth.",
+              "Far above it, about thirty satellite dots trace their orbits."
+            ],
+            "marks": [
+              {
+                "text": "small phone",
+                "at": 0.5859
+              },
+              {
+                "text": "dark Earth",
+                "at": 0.6888
+              },
+              {
+                "text": "thirty satellite",
+                "at": 0.7751
+              },
+              {
+                "text": "Far above",
+                "at": 0.8581
+              }
+            ],
+            "durationSeconds": 12.05
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 11.65,
+      "render_duration_s": 11.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "act": "WORKED EXAMPLE",
+      "narration_text": "One word, satellites, leaves almost everything to guess. So I answered the questions from the script. An illustration. A small phone on a dark Earth, with about thirty satellites far above. A soft blue glow. Navy and silver. Calm. A wide shot, with the whole Earth in frame.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 24,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmBuild",
+          "props": {
+            "start": "satellites",
+            "startAt": 0.0,
+            "parts": [
+              {
+                "text": "illustration",
+                "q": "medium",
+                "at": 0.2983
+              },
+              {
+                "text": "of a small phone on a dark Earth",
+                "q": "subject",
+                "at": 0.374
+              },
+              {
+                "text": "about thirty satellites far above",
+                "q": "subject",
+                "at": 0.4603
+              },
+              {
+                "text": "soft blue glow",
+                "q": "lighting",
+                "at": 0.6148
+              },
+              {
+                "text": "navy and silver",
+                "q": "colour",
+                "at": 0.7224
+              },
+              {
+                "text": "calm",
+                "q": "mood",
+                "at": 0.7864
+              },
+              {
+                "text": "wide shot, whole Earth in frame",
+                "q": "composition",
+                "at": 0.8279
+              }
+            ],
+            "answeredAt": 0.1811,
+            "note": "not run yet: next week's test",
+            "durationSeconds": 18.77
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 18.37,
+      "render_duration_s": 18.375,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "act": "SURPRISE",
+      "narration_text": "Two more things. Name the colour, not the feeling: charcoal grey, not scary colours. And say what you want, not what you don't. If you ask for a party with no cake, you might still get a cake. Use dash dash no instead.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 18,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmTips",
+          "props": {
+            "cards": [
+              {
+                "title": "Name the colour, not the feeling",
+                "titleAt": 0.0802,
+                "body": "charcoal grey, not scary colours",
+                "bodyAt": 0.2039
+              },
+              {
+                "title": "Say what you want, not what you don't",
+                "titleAt": 0.3994,
+                "body": "a party with no cake might still get a cake",
+                "bodyAt": 0.616,
+                "extra": "use --no instead",
+                "extraAt": 0.8158
+              }
+            ],
+            "durationSeconds": 14.22
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 13.82,
+      "render_duration_s": 13.833333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "act": "NEXT",
+      "narration_text": "Next week, I'll run the one-word prompt and the full prompt with the same seed, so the only difference is the words. Then I'll see how much the details really changed.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "PrmNext",
+          "props": {
+            "headAt": 0.0,
+            "steps": [
+              {
+                "text": "the one-word prompt and the full prompt",
+                "at": 0.0799
+              },
+              {
+                "text": "with the same seed",
+                "at": 0.2831
+              },
+              {
+                "text": "the only difference is the words",
+                "at": 0.4519
+              }
+            ],
+            "durationSeconds": 11.02
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 10.62,
+      "render_duration_s": 10.625,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "act": "VERDICT",
+      "narration_text": "Three things to keep. The right details, not more words. Seven questions, from subject to composition. And a script tells you which details matter.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 10,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "GpsTakeaway",
+          "props": {
+            "artifactTitle": "Midjourney Prompts",
+            "artifactHeading": "Three things to keep",
+            "artifactLines": [
+              "1. The right details, not more words.",
+              "2. Seven questions, from subject to composition.",
+              "3. A script tells you which details matter."
+            ],
+            "lineAt": [
+              0.1348,
+              0.3925,
+              0.6898
+            ],
+            "durationSeconds": 10.09
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 9.69,
+      "render_duration_s": 9.708333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "act": "YOUR TURN",
+      "narration_text": "Your turn. Pick one scene from a story, answer the seven questions, and turn them into one short prompt.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 14,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "MjYourTurn",
+          "props": {
+            "prompt": "Act as my tutor. Give me one scene from a short story. Help me answer Midjourney's seven questions for it, then turn my answers into one short, clear prompt.",
+            "askAt": 0.1558,
+            "steps": [
+              {
+                "text": "pick one scene from a story",
+                "at": 0.1558
+              },
+              {
+                "text": "answer the seven questions",
+                "at": 0.3853
+              },
+              {
+                "text": "turn them into one short prompt",
+                "at": 0.6487
+              }
+            ],
+            "runAt": 0.99,
+            "runText": "",
+            "durationSeconds": 7.06
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 6.66,
+      "render_duration_s": 6.666666666666667,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "media",
+        "at": "2026-11-20T17:36:06"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "act": "OUTRO",
+      "narration_text": "What I learned about Midjourney prompts. At Humanitarians AI.",
+      "voice": "af_bella",
+      "engine": "kokoro",
+      "speed": 0.95,
+      "estimated_duration_s": 4,
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "remotion": {
+          "pattern": "HaiTitleOutro",
+          "props": {
+            "title": "Prompt Writing",
+            "handle": "@HumanitariansAI",
+            "durationSeconds": 4.28
+          },
+          "rendered": {
+            "out": "media/B11.mp4",
+            "at": "2026-11-20T22:34:39.443862+00:00"
+          }
+        }
+      },
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 3.88,
+      "render_duration_s": 3.9166666666666665,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "remotion:HaiTitleOutro",
+        "at": "2026-11-20T17:36:06"
+      }
+    }
+  ]
+}

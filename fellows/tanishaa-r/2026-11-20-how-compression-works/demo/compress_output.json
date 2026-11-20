@@ -1,0 +1,68 @@
+{
+  "rhyme_bytes": 424,
+  "rhyme_zlib_bytes": 87,
+  "rhyme_pct_of_original": 20.5,
+  "rhyme_roundtrip_identical": true,
+  "random_bytes": 424,
+  "random_zlib_bytes": 435,
+  "random_pct_of_original": 102.6,
+  "lz77_line": "Merrily, merrily, merrily, merrily,",
+  "lz77_tokens": [
+    {
+      "lit": "M"
+    },
+    {
+      "lit": "e"
+    },
+    {
+      "lit": "r"
+    },
+    {
+      "lit": "r"
+    },
+    {
+      "lit": "i"
+    },
+    {
+      "lit": "l"
+    },
+    {
+      "lit": "y"
+    },
+    {
+      "lit": ","
+    },
+    {
+      "lit": " "
+    },
+    {
+      "lit": "m"
+    },
+    {
+      "back": 9,
+      "len": 25,
+      "text": "errily, merrily, merrily,"
+    }
+  ],
+  "lz77_literal_count": 10,
+  "lz77_ref_count": 1,
+  "png_bytes": 518477,
+  "raw_pixel_bytes": 786432,
+  "jpeg": {
+    "95": {
+      "bytes": 101355,
+      "pct_of_raw": 12.89,
+      "mean_abs_pixel_change": 4.31
+    },
+    "50": {
+      "bytes": 11834,
+      "pct_of_raw": 1.5,
+      "mean_abs_pixel_change": 5.09
+    },
+    "10": {
+      "bytes": 5599,
+      "pct_of_raw": 0.71,
+      "mean_abs_pixel_change": 6.87
+    }
+  }
+}
