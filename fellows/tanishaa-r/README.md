@@ -6,6 +6,11 @@
 
 **Narration voice:** Bella (Kokoro `af_bella`), chosen by me before the first audio and kept for the whole series.
 
+## Quick review
+- [Renewal request (2026-11-23)](renewal-requests/2026-11-23-renewal-request.md)
+- [Weekly hours](weekly-hours/README.md)
+- [Research plan](research-plan.md)
+
 ## Work folders
 - [2026-10-30-what-is-rag](2026-10-30-what-is-rag/) — "What Is RAG?", a STEM/AI explainer on retrieval-augmented generation (16:9 and 9:16); renders on Drive.
 - [2026-10-30-learning-brutalist](2026-10-30-learning-brutalist/) — "Learning Brutalist", progress update on learning the video toolkit and its tools (16:9 and 9:16); renders on Drive.
